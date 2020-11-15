@@ -1,7 +1,7 @@
 var test = require('tape')
 var path = require('path')
 var exec = require('child_process').exec
-var targets = require('node-abi').supportedTargets
+var targets = require('@shiftkey/node-abi').supportedTargets
 
 test('custom config and aliases', function (t) {
   var args = [
